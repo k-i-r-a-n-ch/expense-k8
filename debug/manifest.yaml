@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: debug
+	namespace: expense
+spec:
+  containers:   # docker run -d --name nginx nginx
+  - name: debug
+    image: giveimage
+
+
+
+
+Build this image and use this as image here
+#FROM almalinux:9
+#RUN dnf install telnet -y 
+#CMD["sleep", 20000]
